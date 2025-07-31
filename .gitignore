@@ -1,0 +1,16 @@
+# Python Virtual Environment
+# This is the most important one. It prevents the huge .venv folder from being uploaded.
+.venv/
+
+# Python cache files
+# These are temporary files Python creates automatically.
+__pycache__/
+*.pyc
+
+# Environment variables file
+# VERY IMPORTANT: This contains your secret API keys and must NEVER be public.
+.env
+
+# VS Code specific settings
+# This ignores your personal editor settings.
+.vscode/
